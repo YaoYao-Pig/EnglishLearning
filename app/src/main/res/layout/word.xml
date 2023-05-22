@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordActivity"
+
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorLightWhite">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="88dp"
+        android:layout_height="66dp">
+
+        <ImageView
+            android:id="@+id/returnButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="9dp"
+            android:clickable="true"
+            android:src="@drawable/icon_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.769"></ImageView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+<!--        <TextView-->
+<!--            android:id="@+id/wordsList"-->
+<!--            android:layout_width="311dp"-->
+<!--            android:layout_height="154dp"-->
+<!--            android:text="Word222"-->
+<!--            app:autoSizeMinTextSize="?attr/actionBarSize"-->
+<!--            app:autoSizeTextType="uniform"-->
+<!--            app:fontFamily="sans-serif"-->
+<!--            tools:layout_editor_absoluteX="50dp"-->
+<!--            tools:layout_editor_absoluteY="183dp"-->
+<!--            />-->
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/wordsList"
+            android:layout_width="411dp"
+            android:layout_height="110dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="sentence"
+            android:textColor="@color/colorMainBlue"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            autofit:minTextSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="232dp"
+            android:orientation="vertical"
+            tools:context=".WordActivity"></LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:orientation="horizontal"
+            tools:context=".WordActivity">
+
+            <Button
+                android:id="@+id/rememberButton"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:textColor="@color/colorFontInBlue"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/buttonstyle_bule"
+                android:text="认识" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/forgetButton"
+                android:textColor="@color/colorFontInBlue"
+                android:text="不认识"
+                android:background="@drawable/buttonstyle_red"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="60dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    </LinearLayout>
+
+</LinearLayout>

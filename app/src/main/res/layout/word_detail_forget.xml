@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    tools:context=".WordDetails_ForgetActivity"
+    android:orientation="vertical"
+    android:background="@color/colorLightWhite">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="88dp"
+        android:layout_height="66dp">
+
+        <ImageView
+            android:id="@+id/returnButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="9dp"
+            android:clickable="true"
+            android:src="@drawable/icon_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.769"></ImageView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/wordsList_forget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="sentence"
+            android:textColor="@color/colorMainBlue"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            autofit:minTextSize="16sp" />
+        <!--        <TextView-->
+        <!--            android:id="@+id/wordsList_forget"-->
+        <!--            android:layout_width="311dp"-->
+        <!--            android:layout_height="154dp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:text="access"-->
+        <!--            android:textSize="60dp"-->
+        <!--            app:fontFamily="sans-serif"-->
+        <!--            tools:layout_editor_absoluteX="50dp"-->
+        <!--            tools:layout_editor_absoluteY="183dp" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="371dp"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/ps_forget"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="/'ækses/"
+                android:textColor="@color/colorLightGrey"
+                android:textSize="30dp"></TextView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/pos_forget"
+                android:layout_width="411dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="v.获取\nn.接近，入口"
+                android:textSize="40px"></TextView>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="245dp"
+            android:orientation="horizontal">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/sentence_forget"
+                android:layout_width="363dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Users can access their voice mail remotely.\n用户可以远程获取语音邮件。
+                Access to the papers is restricted to senior management.\n只有高级管理层才有权查阅这些文件。"
+                android:textSize="50px"></TextView>
+            </ScrollView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <Button
+            android:id="@+id/rforgetButton_forget"
+            android:layout_width="125dp"
+            android:layout_height="87dp"
+            android:gravity="center"
+            android:background="@drawable/buttonstyle_bule"
+            android:textColor="@color/colorFontInGrey"
+            android:textStyle="bold"
+            android:text="forget"
+            tools:layout_editor_absoluteX="241dp"
+            tools:layout_editor_absoluteY="542dp" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageActivity"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/wordsList"
+            android:layout_width="411dp"
+            android:layout_height="110dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="Good Good Study Day Day up"
+            android:textColor="@color/colorBgLightBlack"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            autofit:minTextSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="451dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/learnButton"
+                    android:layout_width="360dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/buttonstyle_bule"
+                    android:text="学习"
+                    android:textColor="@color/colorFontInBlue"
+                    tools:layout_editor_absoluteX="49dp"
+                    tools:layout_editor_absoluteY="545dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/reviewButton"
+                    android:layout_width="360dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/buttonstyle_red"
+                    android:text="复习"
+                    android:textColor="@color/colorFontInBlue"
+                    tools:layout_editor_absoluteX="241dp"
+                    tools:layout_editor_absoluteY="542dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/selectBookButton"
+                    android:layout_width="360dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/buttonstyle_green"
+                    android:text="选择单词书"
+                    android:textColor="@color/colorFontInBlue"
+                    tools:layout_editor_absoluteX="241dp"
+                    tools:layout_editor_absoluteY="542dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/starNoteButton"
+                    android:layout_width="360dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/buttonstyle_yellow"
+                    android:text="收藏夹"
+                    android:textColor="@color/colorFontInBlue"
+                    tools:layout_editor_absoluteX="241dp"
+                    tools:layout_editor_absoluteY="542dp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/speechButton"
+                    android:layout_width="360dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/buttonstyle_bule"
+                    android:text="语音识别"
+                    android:textColor="@color/colorFontInBlue"
+                    tools:layout_editor_absoluteX="241dp"
+                    tools:layout_editor_absoluteY="542dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    </LinearLayout>
+
+</LinearLayout>

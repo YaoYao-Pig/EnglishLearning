@@ -1,0 +1,396 @@
+{
+    "reason": "succ",
+    "code": 200,
+    "cates": [
+        {
+            "cateName": "高等教育",
+            "bookList": [
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/1496632727200CET4luan_1.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道考神团队"
+                    },
+                    "size": 788457,
+                    "wordNum": 1162,
+                    "id": "CET4luan_1",
+                    "title": "四级真题核心词（图片记忆）",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1523620217431_CET4luan_1.zip",
+                    "cateName": "高等教育",
+                    "version": "3"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/1496655382926CET6luan_1.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道考神团队"
+                    },
+                    "size": 591417,
+                    "wordNum": 1228,
+                    "id": "CET6luan_1",
+                    "title": "六级真题核心词（图片记忆）",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164660466_CET6luan_1.zip",
+                    "cateName": "高等教育",
+                    "version": "3"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/1496632762670KaoYanluan_1.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道考神团队"
+                    },
+                    "size": 771889,
+                    "wordNum": 1341,
+                    "id": "KaoYanluan_1",
+                    "title": "考研必考词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164661106_KaoYanluan_1.zip",
+                    "cateName": "高等教育",
+                    "version": "3"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/1496632776935Level4luan_1.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道考神团队"
+                    },
+                    "size": 269844,
+                    "wordNum": 595,
+                    "id": "Level4luan_1",
+                    "title": "专四真题高频词",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164630387_Level4luan_1.zip",
+                    "cateName": "高等教育",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/1491037703359Level8_1.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道考神团队"
+                    },
+                    "size": 242255,
+                    "wordNum": 684,
+                    "id": "Level8_1",
+                    "title": "专八真题高频词",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164635290_Level8_1.zip",
+                    "cateName": "高等教育",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_CET4_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 2723074,
+                    "wordNum": 3739,
+                    "id": "CET4luan_2",
+                    "title": "四级英语词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1524052539052_CET4luan_2.zip",
+                    "cateName": "高等教育",
+                    "version": "5"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_CET6_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 1111633,
+                    "wordNum": 2078,
+                    "id": "CET6_2",
+                    "title": "六级英语词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1524052554766_CET6_2.zip",
+                    "cateName": "高等教育",
+                    "version": "4"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_KaoYan_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 2431155,
+                    "wordNum": 4533,
+                    "id": "KaoYan_2",
+                    "title": "考研英语词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164654696_KaoYan_2.zip",
+                    "cateName": "高等教育",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_Level4_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 1783295,
+                    "wordNum": 4025,
+                    "id": "Level4luan_2",
+                    "title": "专四核心词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164625401_Level4luan_2.zip",
+                    "cateName": "高等教育",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_Level8_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 5320395,
+                    "wordNum": 12197,
+                    "id": "Level8luan_2",
+                    "title": "专八核心词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164650006_Level8luan_2.zip",
+                    "cateName": "高等教育",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/1491037568440CET4_1.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道考神团队"
+                    },
+                    "size": 764018,
+                    "wordNum": 1162,
+                    "id": "CET4_1",
+                    "title": "四级真题核心词（正序版）",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164649209_CET4_1.zip",
+                    "cateName": "高等教育",
+                    "version": "3"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/1491037677590CET6_1.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道考神团队"
+                    },
+                    "size": 753196,
+                    "wordNum": 1228,
+                    "id": "CET6_1",
+                    "title": "六级真题核心词（正序版）",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164668667_CET6_1.zip",
+                    "cateName": "高等教育",
+                    "version": "3"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/1491037662208KaoYan_1.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道考神团队"
+                    },
+                    "size": 685507,
+                    "wordNum": 1341,
+                    "id": "KaoYan_1",
+                    "title": "考研必考词汇（正序版）",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164669833_KaoYan_1.zip",
+                    "cateName": "高等教育",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/1491037690141Level4_1.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道考神团队"
+                    },
+                    "size": 267335,
+                    "wordNum": 595,
+                    "id": "Level4_1",
+                    "title": "专四真题高频词（正序版）",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164647417_Level4_1.zip",
+                    "cateName": "高等教育",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_CET4_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 2542778,
+                    "wordNum": 3739,
+                    "id": "CET4_2",
+                    "title": "四级英语词汇（正序版）",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164635506_CET4_2.zip",
+                    "cateName": "高等教育",
+                    "version": "3"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_Level4_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 1706442,
+                    "wordNum": 4025,
+                    "id": "Level4_2",
+                    "title": "专四核心词汇（正序版）",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164653685_Level4_2.zip",
+                    "cateName": "高等教育",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_Level8_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 4763514,
+                    "wordNum": 12197,
+                    "id": "Level8_2",
+                    "title": "专八核心词汇（正序版）",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164663794_Level8_2.zip",
+                    "cateName": "高等教育",
+                    "version": "2"
+                }
+            ]
+        },
+        {
+            "cateName": "出国考试",
+            "bookList": [
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_IELTS_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 1597545,
+                    "wordNum": 3427,
+                    "id": "IELTSluan_2",
+                    "title": "雅思词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164624473_IELTSluan_2.zip",
+                    "cateName": "出国考试",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_TOEFL_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 4327321,
+                    "wordNum": 9213,
+                    "id": "TOEFL_2",
+                    "title": "TOEFL词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164640451_TOEFL_2.zip",
+                    "cateName": "出国考试",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_GRE_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 2470882,
+                    "wordNum": 7199,
+                    "id": "GRE_2",
+                    "title": "GRE词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164637271_GRE_2.zip",
+                    "cateName": "出国考试",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_SAT_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 1784650,
+                    "wordNum": 4423,
+                    "id": "SAT_2",
+                    "title": "SAT词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164670910_SAT_2.zip",
+                    "cateName": "出国考试",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_GMAT_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 1509190,
+                    "wordNum": 3254,
+                    "id": "GMATluan_2",
+                    "title": "GMAT词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164629611_GMATluan_2.zip",
+                    "cateName": "出国考试",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_IELTS_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 1525677,
+                    "wordNum": 3427,
+                    "id": "IELTS_2",
+                    "title": "雅思词汇（正序版）",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164657744_IELTS_2.zip",
+                    "cateName": "出国考试",
+                    "version": "2"
+                },
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_GMAT_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 1422468,
+                    "wordNum": 3254,
+                    "id": "GMAT_2",
+                    "title": "GMAT词汇（正序版）",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164662073_GMAT_2.zip",
+                    "cateName": "出国考试",
+                    "version": "2"
+                }
+            ]
+        },
+        {
+            "cateName": "其他词汇",
+            "bookList": [
+                {
+                    "cover": "https://nos.netease.com/ydschool-online/youdao_BEC_2.jpg",
+                    "bookOrigin": {
+                        "originUrl": "",
+                        "desc": "来源于",
+                        "originName": "有道词典"
+                    },
+                    "size": 1494016,
+                    "wordNum": 2753,
+                    "id": "BEC_2",
+                    "title": "商务英语词汇",
+                    "offlinedata": "http://ydschool-online.nos.netease.com/1521164626760_BEC_2.zip",
+                    "cateName": "其他词汇",
+                    "version": "2"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordDetails_RememberActivity"
+    android:orientation="vertical"
+    android:background="@color/colorLightWhite">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <ImageView
+            android:id="@+id/returnButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="9dp"
+            android:clickable="true"
+            android:src="@drawable/icon_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <ImageView
+            android:id="@+id/startButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="9dp"
+            android:clickable="true"
+            android:src="@drawable/icon_star"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.881"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <me.grantland.widget.AutofitTextView
+            android:id="@+id/wordsList_remember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="sentence"
+            android:textColor="@color/colorMainBlue"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            autofit:minTextSize="16sp" />
+<!--        <TextView-->
+<!--            android:id="@+id/wordsList_remember"-->
+<!--            android:layout_width="311dp"-->
+<!--            android:layout_height="154dp"-->
+<!--            android:gravity="center"-->
+<!--            android:text="access"-->
+<!--            android:textSize="60dp"-->
+<!--            app:fontFamily="sans-serif"-->
+<!--            tools:layout_editor_absoluteX="50dp"-->
+<!--            tools:layout_editor_absoluteY="183dp" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="391dp"
+
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+
+            android:orientation="horizontal">
+
+
+    <TextView
+        android:id="@+id/ps"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:gravity="center"
+        android:text="/'ækses/"
+        android:textSize="20dp"></TextView>
+
+
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="12dp"
+            android:orientation="horizontal"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/pos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="v.获取\nn.接近，入口"
+                android:textSize="40px"></TextView>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/text_wd_sentence"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:text="例句"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/sentence"
+                android:layout_width="371dp"
+                android:layout_height="236dp"
+                android:layout_marginLeft="20dp"
+                android:text="Users can access their voice mail remotely.\n用户可以远程获取语音邮件。
+                Access to the papers is restricted to senior management.\n只有高级管理层才有权查阅这些文件。"
+                android:textSize="50px"></TextView>
+            </ScrollView>
+            <Space
+                android:layout_width="55dp"
+                android:layout_height="11dp"
+                android:layout_weight="3.4" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:id="@+id/layout_wd_delete"
+            android:layout_width="230dp"
+            android:layout_height="match_parent"
+            android:background="?android:attr/selectableItemBackground">
+
+            <ImageView
+                android:id="@+id/rforgetButton"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:clickable="true"
+                android:src="@drawable/icon_ash_black" />
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/rrememberButton"
+            android:layout_width="164dp"
+            android:layout_height="62dp"
+            android:background="@drawable/buttonstyle_bule"
+            android:text="继续"
+            android:textColor="@color/colorFontInBlue"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="545dp" />
+
+        <!--        <Button-->
+        <!--            android:id="@+id/rforgetButton"-->
+        <!--            android:layout_width="125dp"-->
+        <!--            android:layout_height="87dp"-->
+        <!--            android:background="@drawable/buttonstyle_red"-->
+        <!--            android:text="forget"-->
+        <!--            tools:layout_editor_absoluteX="241dp"-->
+        <!--            tools:layout_editor_absoluteY="542dp" />-->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    </LinearLayout>
+
+</LinearLayout>

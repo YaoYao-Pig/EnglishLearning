@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordDetails_RememberActivity"
+    android:orientation="vertical"
+    android:background="@color/colorLightWhite">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp">
+
+        <ImageView
+            android:id="@+id/returnButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="9dp"
+            android:clickable="true"
+            android:src="@drawable/icon_home"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.043"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <me.grantland.widget.AutofitTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:text="sentence"
+            android:textColor="@color/colorMainBlue"
+            android:textSize="52sp"
+            android:textStyle="bold"
+            autofit:minTextSize="16sp" />
+        <!--        <TextView-->
+        <!--            android:id="@+id/wordsList_remember"-->
+        <!--            android:layout_width="311dp"-->
+        <!--            android:layout_height="154dp"-->
+        <!--            android:gravity="center"-->
+        <!--            android:text="access"-->
+        <!--            android:textSize="60dp"-->
+        <!--            app:fontFamily="sans-serif"-->
+        <!--            tools:layout_editor_absoluteX="50dp"-->
+        <!--            tools:layout_editor_absoluteY="183dp" />-->
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+            android:id="@+id/gpt_detail_words"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="text"
+            android:textSize="20dp"
+            ></TextView>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <me.grantland.widget.AutofitTextView
+                android:id="@+id/edit_chat_output"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:hint="若此编辑框无文字，说明识别失败，请手动添加"
+                android:textSize="50px"></me.grantland.widget.AutofitTextView>
+            </ScrollView>
+        </LinearLayout>
+</LinearLayout>

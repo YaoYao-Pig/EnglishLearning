@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.englishlearning"
+    >
+    <!--连接网络权限，用于执行云端语音能力 -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--获取手机录音机使用权限，听写、识别、语义理解需要用到此权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <!--读取网络信息状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!--获取当前wifi状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!--允许程序改变网络连接状态 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <!--读取手机信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <!--读取联系人权限，上传联系人需要用到此权限 -->
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <!--外存储写权限，构建语法需要用到此权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--外存储读权限，构建语法需要用到此权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <!--配置权限，用来记录应用配置信息 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <!--手机定位信息，用来为语义等功能提供定位，提供更精准的服务-->
+    <!--定位信息是敏感信息，可通过Setting.setLocationEnable(false)关闭定位请求 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <!--如需使用人脸识别，还要添加：摄像头权限，拍照需要用到 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:launchMode="standard"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:theme"
+        >
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainPageActivity"></activity>
+        <activity android:name=".WordActivity"></activity>
+        <activity android:name=".SelectBookActivity"></activity>
+        <activity android:name=".WordDetails_RememberActivity"></activity>
+        <activity android:name=".WordDetails_ForgetActivity"></activity>
+        <activity android:name=".ReviewActivity"></activity>
+        <activity android:name=".WordDetails_Remember_ReviewActivity"></activity>
+        <activity android:name=".FinishActivity"></activity>
+        <activity android:name=".WordDetails_Forget_ReviewActivity"></activity>
+        <activity android:name=".WordStarActivity"></activity>
+        <activity android:name=".WordStarDetailActivity"></activity>
+        <activity android:name=".WordBook_Detail"></activity>
+        <activity android:name=".OCRActivity"></activity>
+        <activity android:name=".SpeechConstantActivity"></activity>
+        <activity android:name=".SpeechDetailActivity"></activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".SearchDetailActivity"></activity>
+        <activity android:name=".CharActivity"></activity>
+        <activity android:name=".CalenderActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".AboutActivity"></activity>
+        <activity android:name=".ChatGPTActivity"></activity>
+        <activity android:name=".GPT_Detail_Activity"></activity>
+    </application>
+
+</manifest>
