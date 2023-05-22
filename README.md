@@ -1,2 +1,2 @@
 # EnglishLearning
- 简单的背单词app
+ 一个简单的背单词app
